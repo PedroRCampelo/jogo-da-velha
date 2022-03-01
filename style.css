@@ -12,8 +12,12 @@ h1{
   width: 100px;
   height: 100px;
   background-color: purple;
-  border: 2px solid green;
+  border: 2px solid aquamarine;
   display: inline-block;
+}
+
+.square:hover{
+  background-color: aquamarine;
 }
 
 .o{
