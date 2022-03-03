@@ -1,11 +1,18 @@
 body{
   text-align: center;
-  background-color: black;
+  background-color: rgb(48, 48, 48);
+  width: 80%;
+  height: 80%;
+  margin: auto;
 }
 
 h1{
   font-family: 'Courier New', Courier, monospace;
-  color: wheat;
+  color: rgb(255, 255, 255);
+}
+
+#stageContainer{
+  margin-top: 100px;
 }
 
 .square{
@@ -14,6 +21,7 @@ h1{
   background-color: purple;
   border: 2px solid aquamarine;
   display: inline-block;
+  border-radius: 10px;
 }
 
 .square:hover{
@@ -26,7 +34,7 @@ h1{
 
 .o:after{
   position: absolute;
-  content: '\1F984';
+  content: '\1F432';
   font-size: 50px;
   line-height: 100px;
   top: 0;
@@ -41,7 +49,7 @@ h1{
 
 .x:after{
   position: absolute;
-  content: '\1F434';
+  content: '\1F3AE';
   font-size: 50px;
   line-height: 100px;
   top: 0;
