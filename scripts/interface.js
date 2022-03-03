@@ -11,7 +11,14 @@ let handleClick = function(event){
   let square = event.target;
   let position = square.id;
 
-  handleMove(position);
+  if (handleMove(position)){
+
+    setTimeout(()=>{
+      alert ('O jogo acabou');
+    }, 10);
+    
+  };
+
   updateSquares();
 }
 

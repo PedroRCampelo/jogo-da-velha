@@ -34,7 +34,7 @@ h1{
 
 .o:after{
   position: absolute;
-  content: '\1F432';
+  content: '\1F431';
   font-size: 50px;
   line-height: 100px;
   top: 0;
@@ -49,7 +49,7 @@ h1{
 
 .x:after{
   position: absolute;
-  content: '\1F3AE';
+  content: '\1F436';
   font-size: 50px;
   line-height: 100px;
   top: 0;
