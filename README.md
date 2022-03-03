@@ -2,11 +2,7 @@
 
 Entrando no JavaScript
 
-<<<<<<< HEAD
 **Game** - Representação das posições
-=======
-# **_Game_** Representação das posições
->>>>>>> 452ecf51b2fcd97fc7b6521806b46624bf95e985
 
 Representando o tabuleiro no JS:
 Dentre os 9 quadrados, nós  teremos 3 opções de status, sendo elas o X, O ou vazio (padrão), portanto foi criada uma array representando cada quadrado.
@@ -22,11 +18,9 @@ Lá no game.js criei a função handleMove com position como argumento.
 Executanto ficará como ao realizar o movimento, a posição do board escolhida será o symbols com o indice de playerTime. 
 Dentro do handleMove existe um if pronto para alterar o playerTime, portanto sempre que um jogador jogar, automaticamente a vez irá para o outro jogador, portanto o symbols será diferente para cada jogada.
 
-<<<<<<< HEAD
-**Interface** - Reagir eventos do usuário
-=======
-# **_Interface_** Reagir eventos do usuário
->>>>>>> 452ecf51b2fcd97fc7b6521806b46624bf95e985
+
+**Interface** Reagir eventos do usuário
+
 
 Representamos através do evento onLoad uma função que receberá todo o processo do game.
 
