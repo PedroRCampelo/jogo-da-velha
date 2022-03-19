@@ -17,7 +17,7 @@ h1{
 
 .square{
   width: 100px;
-  height: 100px;
+  height: 101px;
   background-color: purple;
   border: 2px solid aquamarine;
   display: inline-block;
@@ -33,7 +33,7 @@ h1{
   h1{
     color: blue;
   }
-
+}
 .square:hover{
   background-color: aquamarine;
 }
